@@ -26,7 +26,8 @@ describe("System Test Case",()=>{
         let l=await browser.$("//a[contains(text(),'"+email+"')]")
         let ref=$(l)
         await expect(ref).toHaveText(email)  
-      //  await browser.scroll(0,600)    
+      //  await browser.scroll(0,600) 
+      //update   
     })
     ,
     it("add to cart",async()=>{
